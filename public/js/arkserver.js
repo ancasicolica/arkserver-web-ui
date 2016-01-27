@@ -15,7 +15,7 @@ $(document).ready(function () {
 
   $('#ark-details').click(showDetails);
 
-  $('#ark-update').click(stopServer);
+  $('#ark-update').click(update);
 
   // Get the status
   showDetails();
@@ -58,6 +58,6 @@ function showDetails() {
 }
 
 // Update Server
-function stopServer() {
+function update() {
   query('/arkserver/update');
 }
