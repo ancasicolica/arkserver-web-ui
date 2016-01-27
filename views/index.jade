@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p
+    button.btn.btn-default#ark-start(type='button') Start
+    |&nbsp;
+    button.btn.btn-default#ark-restart(type='button') Restart
+    |&nbsp;
+    button.btn.btn-default#ark-stop(type='button') Stop
+    |&nbsp;
+    button.btn.btn-default#ark-details(type='button') Details
+    |&nbsp;
+    button.btn.btn-default#ark-update(type='button') Update
+
+  pre#result
