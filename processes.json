@@ -1,0 +1,5 @@
+{
+  "name": "arkserver",
+  "script": "/home/arkserver/arkserver-web-ui/bin/arkserver-web-ui.js",
+  "exec_mode": "fork_mode"
+}
